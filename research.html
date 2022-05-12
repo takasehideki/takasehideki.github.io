@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<!----------------------------------------------------------------------------------------
+■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■
+■■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□■■
+■■□□■■■■□□■□□□□□□□□□□□□□□□□□□□□□□□□□□□□■■■■◆□□■□□□□□□□■□□□■■■◆□□□■■
+■□□□■□□■□□■□□□□□□□□□□□□□□□□□□□●□□□□□□□□■□□□□□□■■□□□□□■■□□■□□□□□□□□■
+□□□□■■■■□□■■■□□■■■□□■■◆□□■■■□□■□□■□□■□□■□□□□□□■□■□□□■□■□□□■■■■□□□□□
+■□□□■□□□□□■□■□□■□■□□■◆□□□■□■□□■□□□■■□□□■□□□□□□■□□■□■□□■□□□□□□□■□□□■
+■■□□■□□□□□■□■□□■■■□□■■■□□■□■□□■□□■□□■□□■■■■◆□□■□□□■□□□■□□□◆■■■□□□■■
+■■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□■■
+■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■
+https://github.com/tlk-emb/PhoenixCMS
+----------------------------------------------------------------------------------------->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Takase's Webpage</title>
+    <link rel="stylesheet" href="./css/app.css">
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-dark">
+      <h1 class="home-title navbar-brand">高瀬 英希 (Hideki TAKASE)</h1>
+
+        <!-- md以下でハンバーガーメニューを表示 -->
+                        <button class="navbar-toggler  d-md-none hamburger" type="button"
+                data-toggle="collapse"
+                data-target="#navmenu1"
+                aria-controls="navmenu1"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navmenu1">
+                <div class="navbar-nav">
+                    
+                        <a class="nav-item nav-link" href="#" onclick="return navJump(1)">メインテーマと研究項目</a>
+                  
+                </div>
+              </div>
+
+        </nav>
+      <div class="container-fluid">
+        <div class="btn-link-toolbar row" role="toolbar" aria-label="Links on Toolbar">
+          
+
+                                            <a class="btn btn-outline-success rounded-0 btn-sm tool-btn tool-btn-lastrow tool-btn-lastrow-pushed col-3" disabled="disabled" href="./index.html">
+プロフィール                      </a>
+                
+
+
+                                                                                        <a class="btn btn-outline-success rounded-0 btn-sm tool-btn tool-btn-lastrow col-3" href="./research.html">
+研究内容                            </a>
+                    
+            
+
+                                                                                        <a class="btn btn-outline-success rounded-0 btn-sm tool-btn tool-btn-lastrow col-3" href="./activity.html">
+業績・活動                            </a>
+                    
+            
+
+                                                            <a class="btn btn-outline-success rounded-0 btn-sm tool-btn tool-btn-lastrow-last col-3" href="./link.html">
+リンク(記事掲載・講演動画等)                        </a>
+
+            
+        </div>
+      </div>
+    </header>
+    <main hidden id="main">
+
+      
+
+            
+<div class="container-fluid item">
+  <div class="row">
+    
+    
+    <!-- url -->
+    
+
+                </div><div class="row">
+
+      <!--blankか否か -->
+                 <!-- position_nav_jump idはナビゲーションバーからのスクロールに使用
+            line_* クラスは同一行に何個のコンテンツが並ぶかを表し、マージンの調整に使用-->
+        <div class="card rounded-0 border-dark col-12  col-md-12 separate line-" id="1_nav_jump">
+
+            <div class="card-block" id="line-">
+              <div class="row">
+                <h5 class="card-header rounded-0 col-12 title blank_title category-color" bcolor="13a8f2" ccolor="f2fbff">
+メインテーマと研究項目                </h5>
+              </div>
+              <!-- サムネを持つかどうか -->
+
+              <p class="card-text">
+
+                                                  <p><font color="blue"><strong>『組込み／IoTコンピューティング基盤を支えるプラットフォーム技術と設計方法論』</strong></font>について研究しています．</p>
+<p>組込みシステムやIoTコンピューティングを主な研究対象として，あらゆるモノ・コトとヒトを繋げる設計基盤の確立を目指しています．システムレベルの最適化や設計技術に関する研究開発に取り組んでおり，モットーは「<strong>良いモノ</strong>を<strong>誰でも楽に</strong>つくることができる世界へ」を掲げています．</p>
+<p>具体的な研究項目は，次のものがあります．</p>
+<ol>
+<li>ロボットシステム向け軽量実行環境と協調最適化<br>
+クラウドロボティクス時代を支える開発プラットフォーム技術の実現を目指す．軽量な組込みデバイスで動作可能な実行環境，および，リアルタイム性と電力効率を向上させる協調システムに関する研究を行っている．また，大規模なIoT環境におけるロボットアプリケーションのための仮想環境を活用した設計手法・開発技術についても取り組んでいる．
+</li>
+<li>包括的IoTシステム設計最適化技術<br>
+大量かつ多様な計算機で構成されるIoTシステムを包括的に設計する技術の研究を行っている．アーキテクチャの設計階層の縦断および構成要素の横断の両軸からの最適化により，システムの高性能化・低電力化ならびに設計生産性の向上を実現する．
+</li>
+</ol>
+<p>詳細な研究内容については <a href="https://www.slideshare.net/takasehideki">SlideShare</a> や <a href="link.html">講演動画</a> もご覧ください．</p>
+<p>東京大学 コンピューティングシステム研究室（中村・高瀬研究室）全体の取り組みは <a href="http://www.hal.ipc.i.u-tokyo.ac.jp/research/index-j.html">コチラ</a> をご覧ください．</p>
+
+                      
+
+              </p>
+
+              
+            </div>
+      </div>
+  </div>
+</div>
+
+<a class="btn" href="#" id="scroll_top_btn" hidden>
+  <i class=" fa fa-angle-double-up fa-3x category-color-btn" bcolor="13a8f2"></i>
+</a>
+    </main>
+    <footer hidden id="footer">
+Last Update: 2021年06月15日
+      <!--<br>URL: http://www.lab3.kuis.kyoto-u.ac.jp/~takase/index.html<br>-->
+    </footer>
+
+    <script src="./js/marked.min.js"></script>
+    <script src="./js/scroll.js"></script>
+    <script src="./js/header_size.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/tab.js"></script>
+    <script src="./js/index.js"></script>
+
+  </body>
+</html>
