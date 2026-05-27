@@ -2,115 +2,83 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
+  display: 高瀬 英希
+  given: 英希
+  family: 高瀬
+  alternate: Hideki TAKASE
+  pronunciation: たかせ ひでき
+  pronouns: ''
 postnominals:
-  - PhD
-  - MIEEE
-status:
-  icon: "☕️"
-role: Senior AI Research Scientist
+  - 博士（情報科学）
+role: 東京大学 大学院情報理工学系研究科 准教授
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  組込みシステムや IoT コンピューティングを主な研究対象として、あらゆるモノ・コトとヒトを繋げる設計基盤の確立を目指しています。
+
+  システムレベルの最適化や設計技術に関する研究開発に取り組んでおり、モットーは「良いモノを誰でも楽につくることができる世界へ」です。
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: 東京大学 大学院情報理工学系研究科 システム情報学専攻
+    url: https://www.i.u-tokyo.ac.jp/edu/course/ipc/
+  - name: 東京大学 工学部計数工学科 システム情報工学コース
+    url: https://www.keisu.t.u-tokyo.ac.jp/lab/ipc/
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
-    label: E-mail Me
+    url: mailto:takasehideki@hal.ipc.i.u-tokyo.ac.jp
+    label: E-mail
   - icon: brands/x
-    url: https://x.com/example
+    url: https://twitter.com/TAKASEhideki
   - icon: brands/github
-    url: https://github.com/example
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://github.com/takasehideki
+  - icon: brands/facebook
+    url: https://www.facebook.com/takasehideki
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - 組込みシステム向けの消費エネルギー最適化技術
+  - システムレベル設計技術
+  - ROS を活用したロボットシステム開発手法
+  - 関数型言語 Elixir による IoT システム開発環境
+  - 仮想シミュレーション環境「箱庭」
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
-    summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+  - degree: 博士（情報科学）
+    institution: 名古屋大学 大学院情報科学研究科
+    start: 2009-04-01
+    end: 2012-03-31
+  - degree: 修士（情報科学）
+    institution: 名古屋大学 大学院情報科学研究科
+    start: 2007-04-01
+    end: 2009-03-31
+  - degree: 学士（工学）
+    institution: 名古屋大学 工学部電気電子情報工学科
+    start: 2003-04-01
+    end: 2007-03-31
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
-    summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
-    summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
-
-skills:
-  - name: Technical Skills
-    items:
-      - label: Python
-        level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
-        level: 4
-  - name: Research & Communication
-    items:
-      - label: Academic Writing
-        level: 5
-      - label: Conference Presentations
-        level: 4
-      - label: Grant Proposals
-        level: 4
-
-languages:
-  - name: English
-    level: 5
-    label: Native
-  - name: Spanish
-    level: 4
-    label: Fluent
-
-awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+  - role: 准教授
+    org: 東京大学 大学院情報理工学系研究科
+    start: 2021-04-01
+  - role: 准教授
+    org: 京都大学 大学院情報学研究科
+    start: 2019-11-01
+    end: 2021-03-31
+  - role: 客員研究員
+    org: 理化学研究所 計算科学研究センター アーキテクチャ開発チーム
+    start: 2019-11-01
+    end: 2021-03-31
+  - role: さきがけ研究者
+    org: 国立研究開発法人 科学技術振興機構
+    start: 2018-10-01
+    end: 2022-03-31
+  - role: 非常勤講師
+    org: 東京海洋大学
+    start: 2015-10-01
+    end: 2016-03-31
+  - role: 助教
+    org: 京都大学 大学院情報学研究科
+    start: 2012-04-01
+    end: 2019-10-31
+  - role: 特別研究員 DC1
+    org: 日本学術振興会
+    start: 2009-04-01
+    end: 2012-03-31

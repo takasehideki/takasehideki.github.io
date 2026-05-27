@@ -13,19 +13,18 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Your Name"
+    name: "高瀬英希"
     # Legal entity for copyright notices (defaults to name if not set)
-    organization: ""
+    organization: "東京大学"
     # Schema.org type for structured data
     type: person # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: ""
+    tagline: "組込み / IoT コンピューティング基盤を支えるプラットフォーム技術と設計方法論"
     # Site meta description for search engines and social sharing
-    description: "The highly-customizable Hugo Academic theme powered by HugoBlox
-      Kit. Easily create your personal academic website."
+    description: "高瀬英希の研究・業績・講演資料リンクを掲載する個人サイト。"
     # Social accounts (used for meta tags like Twitter Cards)
     social:
-      twitter: "GoOwnable" # Twitter/X handle for Twitter Cards (without @)
+      twitter: "TAKASEhideki" # Twitter/X handle for Twitter Cards (without @)
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
@@ -39,8 +38,8 @@ hugoblox:
     # Optional: Override theme pack colors
     colors:
       primary: "" # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
-      secondary: ""
-      neutral: "" # Affects gray utilities (text-gray-*, bg-gray-*)
+      secondary: "emerald"
+      neutral: "stone" # Affects gray utilities (text-gray-*, bg-gray-*)
     # Optional: Mode-specific color overrides
     colors_light: {}
     colors_dark: {}
@@ -91,7 +90,7 @@ hugoblox:
     search: true
     theme_toggle: true
     theme_picker: true
-    language_switcher: true
+    language_switcher: false
     # Call-to-action button
     cta:
       enable: false
@@ -105,7 +104,7 @@ hugoblox:
   footer:
     # Footer style variant
     style: minimal # minimal | columns | centered
-    language_switcher: true
+    language_switcher: false
     # Custom footer text (HTML supported)
     text: ""
 
@@ -117,7 +116,7 @@ hugoblox:
     # Copyright notice - supports {year}, {name}, {license} placeholders
     notice: "© {year} {name}. This work is licensed under {license}"
     license:
-      type: cc # cc | custom
+      type: custom # cc | custom
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
@@ -240,9 +239,9 @@ hugoblox:
   # Regional formatting preferences
   # ────────────────────────────────────────────────────────────────────────────
   locale:
-    date_format: "Jan 2, 2006" # Go time format
-    time_format: "3:04 PM"
-    address_format: en-us
+    date_format: "2006年1月2日" # Go time format
+    time_format: "15:04"
+    address_format: ja-jp
 
   # ────────────────────────────────────────────────────────────────────────────
   # SECURITY

@@ -4,9 +4,15 @@
   #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: Bio
+  - name: プロフィール
     url: /
     weight: 10
-  - name: Experience
-    url: experience/
+  - name: 研究内容
+    url: research/
     weight: 20
+  - name: 業績・活動
+    url: activity/
+    weight: 30
+  - name: リンク
+    url: links/
+    weight: 40
