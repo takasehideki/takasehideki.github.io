@@ -28,6 +28,10 @@ sections:
       avatar:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
+        gallery:
+          - /media/profile/takasehideki-majime.jpg
+          - /media/profile/takasehideki-aloha.jpg
+          - /media/profile/takasehideki-twitter.jpg
   - block: markdown
     content:
       title: 所属・連絡先
