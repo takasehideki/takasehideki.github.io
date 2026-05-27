@@ -1,0 +1,55 @@
+services:
+  hugoblox:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    working_dir: /workspace
+    volumes:
+      - .:/workspace
+      - hugo-cache:/tmp/hugo_cache
+      - npm-cache:/root/.npm
+    ports:
+      - "1313:1313"
+    environment:
+      HUGO_CACHEDIR: /tmp/hugo_cache
+      TZ: Asia/Tokyo
+    stdin_open: true
+    tty: true
+
+  site:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    working_dir: /workspace
+    command: bash -c 'cd /workspace/academic-cv && pnpm dev'
+    volumes:
+      - .:/workspace
+      - hugo-cache:/tmp/hugo_cache
+      - npm-cache:/root/.npm
+    ports:
+      - "1313:1313"
+    environment:
+      HUGO_CACHEDIR: /tmp/hugo_cache
+      TZ: Asia/Tokyo
+    stdin_open: true
+    tty: true
+
+  build-site:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    working_dir: /workspace
+    command: bash -c 'cd /workspace/academic-cv && pnpm build'
+    volumes:
+      - .:/workspace
+      - hugo-cache:/tmp/hugo_cache
+      - npm-cache:/root/.npm
+    environment:
+      HUGO_CACHEDIR: /tmp/hugo_cache
+      TZ: Asia/Tokyo
+    stdin_open: true
+    tty: true
+
+volumes:
+  hugo-cache:
+  npm-cache:
