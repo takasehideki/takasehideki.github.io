@@ -2,12 +2,19 @@
 .DS_Store
 .pnpm-store/
 *.log
+.idea/
+.vscode/
+.netlify/
 
 # Hugo build artifacts that may appear at the repository root
 public/
 resources/
 .hugo_build.lock
 hugo_stats.json
+pagefind/
+static/pagefind/
+node_modules/
+**/assets/jsconfig.json
 
 # Environment files
 .env

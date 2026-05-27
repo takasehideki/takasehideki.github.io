@@ -1,8 +1,8 @@
 # takasehideki.github.io
 
-This repository is being migrated from a hand-written static site to HugoBlox Academic CV.
+This repository now serves a HugoBlox Academic CV site directly from the repository root.
 
-The generated HugoBlox site currently lives in the `academic-cv/` subdirectory while the legacy HTML site remains at the repository root during migration.
+The previous hand-written HTML site has been preserved under `legacy-site/` as an archive during the migration.
 
 ## Docker workflow
 
@@ -33,8 +33,6 @@ If the template asks for a project folder name, use `academic-cv` to keep the ge
 
 ### Start the Hugo development server
 
-After the site has been initialized:
-
 ```bash
 docker compose up site
 ```
@@ -59,9 +57,12 @@ If you prefer `up` style execution instead:
 docker compose up build-site
 ```
 
-## Migration plan
+## Structure
 
-1. Keep the current HTML site as the content source.
-2. Initialize HugoBlox Academic CV.
-3. Convert the profile, research, links, and activity pages into Markdown-managed Hugo content.
-4. Keep publications as Markdown lists for now; move them to BibTeX later.
+- `content/`, `data/`, `config/`, `assets/`, `layouts/`, `static/`: active Hugo site source.
+- `.github/workflows/`: GitHub Pages build and deploy workflows.
+- `legacy-site/`: archived pre-Hugo HTML, CSS, JS, and images.
+
+## Deployment
+
+GitHub Pages deployment is handled by the workflows in `.github/workflows/`.
