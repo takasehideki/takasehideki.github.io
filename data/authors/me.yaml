@@ -23,13 +23,12 @@ affiliations:
     url: https://www.keisu.t.u-tokyo.ac.jp/lab/ipc/
 
 links:
-  - icon: at-symbol
-    url: mailto:takasehideki@hal.ipc.i.u-tokyo.ac.jp
-    label: E-mail
   - icon: brands/x
     url: https://twitter.com/TAKASEhideki
   - icon: brands/github
     url: https://github.com/takasehideki
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/hideki-takase-0623a111/
   - icon: brands/facebook
     url: https://www.facebook.com/takasehideki
 

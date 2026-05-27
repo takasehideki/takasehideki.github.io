@@ -13,9 +13,9 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "高瀬英希"
+    name: "高瀬英希 (Hideki TAKASE)"
     # Legal entity for copyright notices (defaults to name if not set)
-    organization: "東京大学"
+    organization: "takasehideki"
     # Schema.org type for structured data
     type: person # person | organization | local_business
     # Short tagline displayed on your site
