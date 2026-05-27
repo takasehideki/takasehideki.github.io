@@ -2,6 +2,9 @@
 title: リンク
 date: 2026-05-27
 type: page
+show_date: false
+reading_time: false
+show_date_updated: false
 ---
 
 ## 講演動画

@@ -2,6 +2,9 @@
 title: 研究内容
 date: 2026-05-27
 type: page
+show_date: false
+reading_time: false
+show_date_updated: false
 ---
 
 <strong>『組込み / IoT コンピューティング基盤を支えるプラットフォーム技術と設計方法論』</strong>について研究しています。

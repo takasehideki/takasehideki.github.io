@@ -2,6 +2,9 @@
 title: 業績・活動
 date: 2026-05-27
 type: page
+show_date: false
+reading_time: false
+show_date_updated: false
 ---
 
 業績・講演・受賞・学会活動を、従来サイトの内容に沿って整理しています。論文一覧の BibTeX 化は今後の作業として、現時点では Markdown / HTML ベースで移植しています。
