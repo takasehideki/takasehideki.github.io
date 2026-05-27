@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap");
+
+:root {
+  --hb-font-family-sans: "Noto Sans JP", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "YuGothic", sans-serif !important;
+  --hb-font-heading: var(--hb-font-family-sans) !important;
+  --hb-font-body: var(--hb-font-family-sans) !important;
+  --hb-font-nav: var(--hb-font-family-sans) !important;
+}
+
+body,
+button,
+input,
+select,
+textarea,
+.navbar,
+.navbar-brand,
+.nav-link,
+.prose,
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4,
+.prose h5,
+.prose h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Noto Sans JP", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "YuGothic", sans-serif !important;
+}
