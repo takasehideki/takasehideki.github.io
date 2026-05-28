@@ -11,6 +11,9 @@ show_date_updated: false
 
 ### 学術論文（査読有り）
 
+1. Takuya Kojima, Masaki Morita, <u>Hideki Takase</u> and Hiroshi Nakamura, **An Open-Source Framework for Efficient Side-Channel Analysis on Cryptographic Implementations**, IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, 2026.
+3. Satoshi Okada, Houda Jmila, Kunio Akashi, Takuho Mitsunaga, Yuji Sekiya, <u>Hideki Takase</u>, Gregory Blanc and Hiroshi Nakamura, **Xai-driven black-box adversarial attacks on network intrusion detectors.**, International Journal of Information Security, Vol. 24, No. 3, 2025年6月.
+4. Ryota Miyagi, Ryota Yasudo, Kentaro Sano and <u>Hideki Takase</u>, **A Scalable Accelerator for Local Score Computation of Structure Learning in Bayesian Networks**, ACM Transactions on Reconfigurable Technology and Systems, Vol. 18, No. 1, pp. 8-29, 2025年3月31日.
 1. 祐源英俊，<u>高瀬英希</u>，**ROSノード軽量実行環境mROSのユーザ定義メッセージ型の対応のための機能拡張**，情報処理学会論文誌，Vol. 62, No. 3, pp. 917-930, 2021年3月.
 2. <u>Hideki Takase</u>, Tomoya Mori, Kazuyoshi Takagi and Naofumi Takagi, **mROS: A Lightweight Runtime Environment of ROS 1 nodes for Embedded Devices**, Journal of Information Processing, Vol. 28, No. 2, pp. 150-160, Feb 2020.
 3. Takuya Hatayama, <u>Hideki Takase</u>, Kazuyoshi Takagi and Naofumi Takagi, **An Allocation Optimization Method for Partially-reliable Scratch-pad Memory in Embedded Systems**, IPSJ Transactions on System LSI Design Methodology, Vol. 8, No. 2, pp. 100-104, Aug 2015.
@@ -25,8 +28,30 @@ show_date_updated: false
 12. <u>Hideki Takase</u>, Hiroyuki Tomiyama and Hiroaki Takada, **Partitioning and Allocation of Scratch-Pad Memory in Priority-Based Multi-Task Systems**, IPSJ Transactions on System LSI Design Methodology, Vol. 2 (2009), pp. 180-188, Aug 2009.
 13. <u>Hideki Takase</u>, Hiroyuki Tomiyama, Gang Zeng and Hiroaki Takada, **Energy efficiency of scratch-pad memory in deep submicron domains: an empirical study**, IEICE Electronics Express, Vol. 5, No. 23, pp. 1010-1016, Dec 2008.
 
+### プレプリント
+
+1. Ai Nozaki, Takuya Kojima, <u>Hideki Takase</u> and Hiroshi Nakamura, **Dataflow-Oriented Classification and Performance Analysis of GPU-Accelerated Homomorphic Encryption.**, CoRR, abs/2603.16692, 2026年3月.
+2. Yuki Oda, Yuta Ono, Hiroshi Nakamura and <u>Hideki Takase</u>, **Hetero-SplitEE: Split Learning of Neural Networks with Early Exits for Heterogeneous IoT Devices.**, arXiv:2512.09313, 2025年12月. (published in MCSoC 2025)
+3. Takuya Kojima, Masaki Morita, <u>Hideki Takase</u> and Hiroshi Nakamura, **An Open-Source Framework for Efficient Side-Channel Analysis on Cryptographic Implementations**, Cryptology ePrint Archive, Paper 2025/1130, 2025年6月. (published in IEEE TCAD)
+4. Yuta Ono, Hiroshi Nakamura and <u>Hideki Takase</u>, **Exploring the Possibility of TypiClust for Low-Budget Federated Active Learning**, arXiv:2505.19404, 2025年5月. (published in COMPSAC 2025)
+5. Marin Matsumoto, Ai Nozaki, <u>Hideki Takase</u> and Masato Oguchi, **TFHE-SBC: Software Designs for Fully Homomorphic Encryption over the Torus on Single Board Computers.**, CoRR, abs/2503.02559, 2025年3月.
+
 ### 国際会議
 
+1. Huilin Li, Hiroshi Nakamura and <u>Hideki Takase</u>, **Consistency-Preserving Deep Reinforcement Learning for Computation Offloading and Resource Allocation in MEC Environment.**, 2026 IEEE International Conference on Information Networking (ICOIN 2026), pp. 92-97, 2026年.
+1. Hisako Ito, Takuya Kojima, <u>Hideki Takase</u> and Hiroshi Nakamura, **A Decoupled Coarse-Grained Reconfigurable Architecture by Introducing Data Flow Management Unit.**, 2025 IEEE International Parallel and Distributed Processing Symposium, pp. 112-119, 2025年.
+2. Yuta Ono, Hiroshi Nakamura and <u>Hideki Takase</u>, **Exploring the Possibility of TypiClust for Low-Budget Federated Active Learning.**, 49th IEEE Annual Computers, Software, and Applications Conference (COMPSAC), pp. 648-653, 2025年.
+3. Takuya Nomura, Yusuke Yamasaki, Shintaro Hosoai, <u>Hideki Takase</u> and Takuya Azumi, **F2MKDC: Fog-Enabled Federated Learning with Mutual Knowledge Distillation and Clustering for Data Distribution-Based Collaborative Learning.**, MCSoC, pp. 796-803, 2025年.
+4. Yuki Oda, Yuta Ono, Hiroshi Nakamura and <u>Hideki Takase</u>, **Hetero-SplitEE: Split Learning of Neural Networks with Early Exits for Heterogeneous IoT Devices.**, MCSoC, pp. 562-569, 2025年.
+5. Kensuke Setsu, Ryota Miyagi, Hiroshi Nakamura and <u>Hideki Takase</u>, **Modeling Memory Usage in Training of Reversible Residual Network for Parallel Distributed Processing.**, Proceedings of the 15th International Symposium on Highly Efficient Accelerators and Reconfigurable Technologies (HEART), pp. 57-66, 2025年.
+6. Huilin Li, Hiroshi Nakamura and <u>Hideki Takase</u>, **A Resource Allocation Method in Multi-access Edge Computing Environment Based on Deep Reinforcement Learning.**, 17th IEEE International Symposium on Embedded Multicore/Many-core Systems-on-Chip (MCSoC), pp. 269-275, 2024年.
+7. Ai Nozaki, Takuya Kojima, Hiroshi Nakamura and <u>Hideki Takase</u>, **A Study on Number Theoretic Transform Acceleration on AMD AI Engine.**, 17th IEEE International Symposium on Embedded Multicore/Many-core Systems-on-Chip (MCSoC), pp. 325-331, 2024年.
+8. Ai Nozaki, Takuya Kojima, Hiroshi Nakamura and <u>Hideki Takase</u>, **MLIR-Based Homomorphic Encryption Compiler for GPU.**, Proceedings of the 14th International Symposium on Highly Efficient Accelerators and Reconfigurable Technologies (HEART), pp. 130-132, 2024年.
+9. Ryota Miyagi and <u>Hideki Takase</u>, **Ph.D. Project: Field-Programmable Computing for Bayesian Network Structure Learning.**, 32nd IEEE Annual International Symposium on Field-Programmable Custom Computing Machines (FCCM), pp. 229-230, 2024年.
+10. Satoshi Okada, Houda Jmila, Kunio Akashi, Takuho Mitsunaga, Yuji Sekiya, <u>Hideki Takase</u>, Gregory Blanc and Hiroshi Nakamura, **XAI-driven Adversarial Attacks on Network Intrusion Detectors.**, European Interdisciplinary Cybersecurity Conference (EICC), pp. 65-73, 2024年.
+11. Kaito Kutsuna, Takuya Kojima, <u>Hideki Takase</u> and Hiroshi Nakamura, **An Area-Efficient Coarse-Grained Reconfigurable Array Design for Approximate Computing.**, 16th IEEE International Symposium on Embedded Multicore/Many-core Systems-on-Chip (MCSoC), pp. 59-64, 2023年.
+12. Yusuke Kanamori, Yusuke Yamasaki, Shintaro Hosoai, Hiroshi Nakamura and <u>Hideki Takase</u>, **An asynchronous federated learning focusing on updated models for decentralized systems with a practical framework.**, 47th IEEE Annual Computers, Software, and Applications Conference (COMPSAC), pp. 1147-1154, 2023年.
+13. Yusuke Yamasaki and <u>Hideki Takase</u>, **F2MKD: Fog-enabled Federated Learning with Mutual Knowledge Distillation.**, 20th IEEE Consumer Communications & Networking Conference (CCNC), pp. 682-683, 2023年.
 1. Ryota Miyagi and <u>Hideki Takase</u>, **An FPGA Accelerator of Bayesian Network Structure Learning Using Parallel Calculation of Local Scores**, The International Conference on High Performance Computing in Asia-Pacific Region (HPC Asia 2022), Jan 2022.
 2. Ryota Miyagi, Sho Kinoshita, Masashi Oda, Naofumi Takagi and <u>Hideki Takase</u>, **FPGA Integrated ROS-Based Autonomous Mobile Robot**, Proceedings of 2021 International Conference on Field-Programmable Technology (FPT), Dec 2021.
 3. Satoshi Okada, Daisuke Miyamoto, Yuji Sekiya, <u>Hideki Takase</u> and Hiroshi Nakamura, **LDoS Attacker Detection Algorithms in Zigbee Network**, Proceedings of The 14th IEEE International Conference on Internet of Things (iThings), Dec 2021.
@@ -61,6 +86,27 @@ show_date_updated: false
 
 ### 国内シンポジウム・研究会
 
+1. 森崇，平鍋健児，高田光隆，久保秋真，細合晋太郎，<u>高瀬英希</u>，**分散シミュレーションハブ「箱庭」における時刻同期機能の実現**，ロボティクスシンポジア予稿集，30th，2025年．
+2. 行方聖，宮城竜大，錦織広尚，中村宏，<u>高瀬英希</u>，**GPUを用いた大規模ベイジアンネットワーク構造学習のデータアクセス削減による高速化**，情報処理学会研究報告(Web)，2025(ARC-262)，2025年．
+3. 宮城竜大，錦織広尚，中村宏，<u>高瀬英希</u>，**OpenBNSL:ベイジアンネットワーク構造学習の包括的な性能評価基盤**，人工知能学会全国大会論文集(Web)，39th，2025年．
+4. 森田昌樹，小島拓也，石井悠人，<u>高瀬英希</u>，中村宏，**オートエンコーダを活用した前処理による深層学習手法を用いるサイドチャネル攻撃の軽量化**，電子情報通信学会技術研究報告(Web)，124(400(VLD2024 103-140))，2025年．
+5. 錦織広尚，宮城竜大，中村宏，<u>高瀬英希</u>，**ベイジアンネットワーク構造学習における並列性と再帰性を用いたRAIアルゴリズムの高速化**，人工知能学会全国大会論文集(Web)，39th，2025年．
+6. 小野悠太，中村宏，<u>高瀬英希</u>，**低予算環境での連合能動学習におけるTypiClustの性能評価**，人工知能学会全国大会論文集(Web)，39th，2025年．
+7. 坪井元春，野崎愛，小島拓也，中村宏，<u>高瀬英希</u>，**回転因子に着目した数論変換のAMD AI Engine向け並列化**，情報処理学会研究報告(Web)，2025(ARC-260)，2025年．
+8. 野崎愛，小島拓也，中村宏，<u>高瀬英希</u>，**多項式演算グラフに着目したデータ再利用を高めるGPU向け準同型暗号コンパイラ**，情報処理学会研究報告(Web)，2025(ARC-260)，2025年．
+9. 織田悠希，小野悠太，中村宏，<u>高瀬英希</u>，**早期出力を導入した分割学習の拡張に向けた予備評価**，情報処理学会研究報告(Web)，2025(ARC-262)，2025年．
+10. 藤原祐允，中村宏，<u>高瀬英希</u>，**複数ホスト構成のROS2システムに対するスケーラビリティ評価手法**，情報処理学会研究報告(Web)，2025(ARC-260)，2025年．
+11. 伊藤慧弥，細合晋太郎，西内一馬，大崎充博，菊池豊，松嶋聡，<u>高瀬英希</u>，**資源透過型プラットフォームGiocciへの通信プロトコルZenohの統合による広域分散処理手法**，情報処理学会研究報告(Web)，2025(ARC-260)，2025年．
+12. 野崎愛，小島拓也，中村宏，<u>高瀬英希</u>，**AMD AI Engineによる数論変換のアクセラレーションの検討**，情報処理学会研究報告(Web)，2024(ARC-258)，2024年．
+13. 柏崎礼生，大崎充博，西内一馬，菊池豊，細合晋太郎，<u>高瀬英希</u>，**B5G時代を見据えた非中央集権的な資源配分アルゴリズムの設計と実装**，情報処理学会研究報告(Web)，2024(IOT-064)，2024年．
+14. 伊藤向子，小島拓也，<u>高瀬英希</u>，中村宏，**CGRAにおけるコントローラ設計探索のための制御フロー分離の検討**，電子情報通信学会技術研究報告(Web)，124(72(CPSY2024 1-15))，2024年．
+15. 齋藤真，小島拓也，<u>高瀬英希</u>，中村宏，**Elastic CGRA向けのスケーラブルなマッピング手法**，電子情報通信学会技術研究報告(Web)，123(390(VLD2023 99-140))，pp. 650-657，2024年．
+16. 野崎愛，小島拓也，中村宏，<u>高瀬英希</u>，**MLIRを用いたGPU向け準同型暗号コンパイラ**，情報処理学会研究報告(Web)，2024(ARC-256)，2024年．
+17. 森崇，平鍋健児，高田光隆，久保秋真，細合晋太郎，<u>高瀬英希</u>，**Zenoh通信基盤を活用した現実空間と仮想空間を繋ぐ箱庭ブリッジの設計およびその実証事例**，日本ロボット学会学術講演会予稿集(CD-ROM)，42nd，2024年．
+18. 石井悠人，小島拓也，<u>高瀬英希</u>，中村宏，**オートエンコーダによる電力解析型サイドチャネル攻撃**，電子情報通信学会技術研究報告(Web)，124(120(ISEC2024 8-61))，2024年．
+19. 松本茉倫，野崎愛，辻有紗，<u>高瀬英希</u>，小口正人，**シングルボードコンピュータを用いたトーラス上の完全準同型暗号におけるクライアント側演算の効率化**，電子情報通信学会技術研究報告(Web)，124(148(CPSY2024 16-41))，2024年．
+20. 高田光隆，<u>高瀬英希</u>，久保秋真，細合晋太郎，森崇，**宇宙ドメインにおけるマルチシステムを横断する箱庭技術を活用したシミュレーション環境の提案**，計測自動制御学会システムインテグレーション部門講演会(CD-ROM)，25th，2024年．
+21. 高木柚李，細合晋太郎，森崇，中村宏，<u>高瀬英希</u>，**物理ロボットとシミュレーションモデルによる経路探索のための深層強化学習手法**，情報処理学会研究報告(Web)，2024(ARC-257)，2024年．
 1. <u>高瀬英希</u>，祐源英俊，**mROS 2：組込みデバイス向けのROS 2ノード軽量実行環境**，情報処理学会研究報告組込みシステム（EMB）, Vol. 2022-EMB-59, No. 37, pp. 1-8, オンライン, 2022年3月.
 2. 檜原陽一郎，中村宏，<u>高瀬英希</u>，**ROS 2ノード軽量実行環境mROS 2における任意型メッセージの通信処理方式**，情報処理学会研究報告組込みシステム（EMB）, Vol. 2022-EMB-59, No. 38, pp. 1-8, オンライン, 2022年3月.
 3. 佐藤弘之，武田大輝，菊地俊介，中村宏，<u>高瀬英希</u>，**ElixirによるROS 2クライアントライブラリの任意型メッセージの通信手法**，情報処理学会研究報告システム・アーキテクチャ（ARC）, Vol. 2022-ARC-248, No. 50, pp. 1-8, オンライン, 2022年3月.
@@ -163,6 +209,7 @@ show_date_updated: false
 
 ### イベント登壇
 
+1. <u>高瀬英希</u>，**「ElixirでIoT!!」のこれまでとこれから**，関数型まつり2025，2025年6月．
 1. <u>高瀬英希</u>，**高い並列性能と耐障害性を持つElixirとNervesでIoTの新しいカタチを切り拓く**，[Design Solution Forum 2021](https://dsforum.jp/2021/)，2021年11月．（[講演資料](https://www.slideshare.net/takasehideki/elixirnervesiot-250588652)｜[動画](https://www.youtube.com/watch?v=ZuS9T1UW8Qk)）
 2. <u>高瀬英希</u>，武田大輝，今西洋偉，祐源英俊，**ROS 2 Client Library for E^2**，[ROSCon JP 2021](https://roscon.jp/2021)，2021年9月．（[講演資料](https://www.slideshare.net/takasehideki/ros-2-client-library-for-e2-250206371)｜[動画](https://vimeo.com/638040779/8a10335711)）
 3. <u>高瀬英希</u>，**FPGAでロボット(ROS)を「やわらかく」使うには**，[第7回ロボティクス勉強会 #robosemi](https://robosemi.connpass.com/)，2020年12月．（[講演資料](https://www.slideshare.net/takasehideki/fpgaros-240272923)）
@@ -190,8 +237,11 @@ show_date_updated: false
 25. [セッションコーディネート] <u>高瀬英希</u>，**若手研究者によるお悩み相談室 〜この先端研究ってホントに産で使えるの？この最新技術ってホントに学で扱えるの？〜**，[第12回組込みシステム技術に関するサマーワークショップ（SWEST12）](http://www.ertl.jp/SWEST/)，2010年9月．
 26. <u>高瀬英希</u>，松原豊，**SSEST: 若手がやってみた組込み教育**，[組込みシステム開発技術研究会（CEST）第114回技術交流会](http://www.ertl.jp/CEST/)，名古屋, 2009年5月．
 
-### 記事執筆
+### 書籍・執筆記事等
 
+1. 高瀬英希，**通信ミドルウェアZenohとROS 2への対応**，日本ロボット学会，2025年．
+2. 松岡貴志，<u>高瀬英希</u>，**もっと深掘り!Git&GitHub**，CQ出版社 連載シリーズ，2025年．第1回「**Gitが情報を記録する仕組み**」／第2回「**タグとブランチ戦略**」／第3回「**変更履歴の表示と検索**」／第4回「**リモート機能プッシュ/フェッチ/プルを使ってみる**」／第5回「**巨大プロジェクトの分割に便利なサブモジュール機能**」／第6回「**効率的な共同開発に便利!IssuesとPull Request**」
+3. 高瀬英希，松岡貴志，**バージョン管理システム&開発プラットフォーム Git&GitHubをはじめる本**，CQ出版社，2024年．
 1. 高瀬英希，**IoT向きモダン言語Elixirの研究**，CQ出版 [Interface](https://interface.cqpub.co.jp/) 連載シリーズ，2020年4月-11月．第1回「**IoT向きプログラミング言語Elixirの世界**」／第2回「**ElixirのIoTフレームワークNervesとは**」／第3回「**IoTフレームワークNerves＆ラズパイでHello World**」／第4回「**IoTフレームワークNervesでネットワーク接続**」／第5回「**IoTフレームワークNervesでラズパイ周辺デバイスにサクッとつながる**」／第6回「**出荷後の機器のファームウェアをOTAで更新**」／第7回「**IoTシステム開発にトライ！**」
 2. 高瀬英希，**ロボット1日開発 初めてのROS＆位置推定**，CQ出版 [トランジスタ技術2020年9月号](https://toragi.cqpub.co.jp/tabid/918/Default.aspx)，2020年8月．第3章「**作ってわかる！ROSの通信機能のしくみ**」／第4章「**進化中！次世代バージョン「ROS 2」**」
 3. 高瀬英希，**2050年の情報処理：1. 組込みシステムはどこへ向かうか？**，情報処理学会 情報処理，2020年4月．
@@ -201,6 +251,7 @@ show_date_updated: false
 
 ### 受賞
 
+1. 2022年度（令和4年度）山下記念研究賞，2023年3月．
 1. 第10回 相磯秀夫杯 FPGAデザインコンテスト 第2位，2021年10月．
 2. 第9回 相磯秀夫杯 FPGAデザインコンテスト 第3位，2020年10月．
 3. 第22回組込みシステム技術に関するワークショップ（SWEST22）ベストポスター賞 シルバー，2020年8月．
