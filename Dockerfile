@@ -2,6 +2,7 @@ FROM node:22-trixie-slim
 
 ARG GO_VERSION=1.24.4
 ARG HUGO_VERSION=0.162.0
+ARG PNPM_VERSION=10.14.0
 
 RUN apt-get update \
   && apt-get upgrade -y \
@@ -28,7 +29,7 @@ RUN arch="$(dpkg --print-architecture)" \
 
 ENV PATH="/usr/local/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
 
-RUN npm install -g pnpm hugoblox sass
+RUN npm install -g "pnpm@${PNPM_VERSION}" hugoblox sass
 
 WORKDIR /workspace
 

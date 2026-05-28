@@ -135,15 +135,20 @@
         {{ $img = $image_resource }}
 
         {{ if $img }}
-          {{ $canProcess := and (reflect.IsImageResourceProcessable $img) (ne $img.MediaType.SubType "gif") }}
+          {{ $responsive := false }}
+          {{ if ne $img.MediaType.SubType "gif" }}
+            {{ $responsive_result := try (partial "functions/process_responsive_image.html" (dict
+                "image" $img
+                "mode" "fill"
+                "aspect_ratio" "16:9"
+                "sizes" (slice 768 1024 1366 1920 2560)
+            )) }}
+            {{ if and $responsive_result (not $responsive_result.Err) }}
+              {{ $responsive = $responsive_result.Value }}
+            {{ end }}
+          {{ end }}
           <div class="relative w-full h-64 rounded-2xl overflow-hidden shadow-xl mb-8">
-            {{ if $canProcess }}
-              {{ $responsive := partial "functions/process_responsive_image.html" (dict
-                  "image" $img
-                  "mode" "fill"
-                  "aspect_ratio" "16:9"
-                  "sizes" (slice 768 1024 1366 1920 2560)
-              ) }}
+            {{ if $responsive }}
               <img class="absolute inset-0 w-full h-full object-cover"
                     srcset="{{ $responsive.srcset }}"
                     sizes="100vw"
@@ -330,7 +335,8 @@
           {{ end }}
           {{ $linkUrl = strings.TrimSpace $linkUrl }}
           {{ if $linkUrl }}
-            {{ $scheme := (urls.Parse $linkUrl).Scheme }}
+            {{ $parsedUrl := urls.Parse $linkUrl }}
+            {{ $scheme := $parsedUrl.Scheme }}
             {{ $target := "" }}
             {{ if not $scheme }}
               {{ if not (hasPrefix $linkUrl "#") }}
@@ -340,9 +346,18 @@
             {{ else if in (slice "http" "https") $scheme }}
               {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
             {{ end }}
+            {{ $ariaLabel := strings.TrimSpace $linkLabel }}
+            {{ if not $ariaLabel }}
+              {{ $host := strings.TrimSpace $parsedUrl.Host }}
+              {{ if $host }}
+                {{ $ariaLabel = strings.TrimPrefix "www." $host }}
+              {{ else }}
+                {{ $ariaLabel = $linkUrl }}
+              {{ end }}
+            {{ end }}
             <a href="{{ $linkUrl | safeURL }}" {{ $target | safeHTMLAttr }}
-               aria-label="{{ $iconName }}"
-               {{ if $linkLabel }} title="{{ $linkLabel }}"{{ end }}
+               aria-label="{{ $ariaLabel }}"
+               title="{{ $ariaLabel }}"
                class="w-12 h-12 flex items-center justify-center rounded-full bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-400
                       shadow-md hover:shadow-xl hover:scale-110 hover:-translate-y-1
                       transition-all duration-300 border border-gray-200 dark:border-gray-700">

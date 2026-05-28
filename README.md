@@ -4,6 +4,15 @@ This repository now serves a HugoBlox Academic CV site directly from the reposit
 
 The previous hand-written HTML site has been preserved under `legacy-site/` as an archive during the migration.
 
+## Base stack
+
+This site is built on top of the following upstream projects:
+
+- [HugoBlox Kit](https://github.com/HugoBlox/hugo-blox-builder)
+- [Academic CV template](https://github.com/HugoBlox/theme-academic-cv)
+
+Both upstream projects are distributed under the MIT License. See [LICENSE.md](LICENSE.md) in this repository as well as the upstream repositories for the original license text.
+
 ## Docker workflow
 
 The local toolchain is containerized so Hugo, Go, Node.js, pnpm, Dart Sass, and the HugoBlox CLI do not need to be installed directly on the host.
@@ -21,16 +30,6 @@ docker compose run --rm hugoblox hugo version
 docker compose run --rm hugoblox hugoblox version
 ```
 
-### Initialize HugoBlox Academic CV in this repository
-
-Do this only after deciding how to preserve the current HTML site files.
-
-```bash
-docker compose run --rm hugoblox hugoblox create site --template academic-cv
-```
-
-If the template asks for a project folder name, use `academic-cv` to keep the generated site isolated from the legacy HTML files.
-
 ### Start the Hugo development server
 
 ```bash
@@ -45,7 +44,7 @@ To stop it:
 docker compose stop site
 ```
 
-### Build the generated site
+### Build the site
 
 ```bash
 docker compose run --rm build-site
